@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148.549" height="111.11" viewBox="0 0 148.549 111.11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 25px;
+        font-family: Poppins-SemiBold, Poppins;
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        fill: #534741;
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="TEA_BRAND_PICKWICK_FOUNDED" data-name="TEA BRAND
+PICKWICK
+FOUNDED" class="cls-1" transform="translate(76.895 34.215) rotate(7)"><tspan x="-68.938" y="0">TEA BRAND</tspan><tspan class="cls-2"><tspan x="-64.8" y="30">PICKWICK</tspan></tspan><tspan x="-58.913" y="60">FOUNDED</tspan></text>
+</svg>

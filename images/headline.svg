@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="100" viewBox="0 0 720 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #313131;
+        font-size: 100px;
+        font-family: Magilio-Regular, Magilio;
+      }
+    </style>
+  </defs>
+  <text id="TEA_MILESTONES" data-name="TEA MILESTONES" class="cls-1" transform="translate(0 75)"><tspan x="0" y="0">TEA MILESTONES</tspan></text>
+</svg>

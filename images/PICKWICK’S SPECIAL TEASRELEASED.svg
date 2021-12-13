@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196.679" height="120.93" viewBox="0 0 196.679 120.93">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #534741;
+        font-size: 28px;
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: Poppins-SemiBold, Poppins;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <text id="PICKWICK_S_SPECIAL_TEAS_RELEASED" data-name="PICKWICK’S 
+SPECIAL TEAS
+RELEASED" class="cls-1" transform="translate(100.838 40.118) rotate(7)"><tspan x="-88.55" y="0">PICKWICK’S </tspan><tspan class="cls-2"><tspan x="-92.988" y="30">SPECIAL TEAS</tspan><tspan x="-66.332" y="60">RELEASED</tspan></tspan></text>
+</svg>
