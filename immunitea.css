@@ -33,7 +33,7 @@ header {
   color: #1B1C1E;
   text-decoration: none;
   display: block;
-  padding:20px
+  padding:20px;
   
   
   }
@@ -42,7 +42,6 @@ header {
     list-style: none;
   position: relative;
   float: left;
-  
   }
   
   header .navbar ul li a:hover{
@@ -51,7 +50,7 @@ header {
    
     }
   
-    header .navbar ul li ul{
+   header .navbar ul li ul{
       position: absolute;
       left: 0;
       width: 200px;
@@ -93,9 +92,7 @@ main{
     margin-top:70px;
 }
 
-.try {
-    margin-top:300px;
-}
+
 
 .container{
     display: flex;
@@ -112,19 +109,16 @@ justify-content: space-evenly;
     justify-content: center;
     align-items: center;
     position: relative;
-overflow: hidden;
+
 
 }
 
 .image img{
         object-fit: cover;
       position: absolute;
-      
+      border-radius: 8px;
        width: 100%
         
-}
-.descrption{
- width: 60%;
 }
 
 .description h2{
@@ -323,6 +317,7 @@ font-size: 25px;
   .box {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     margin-top: 20px;
@@ -358,4 +353,76 @@ font-size: 25px;
     width: 40px;
     margin:10px;
     margin-top: 40px;
+  }
+
+  @media only screen and (max-width:768px){
+      .container{
+          display: flex;
+          flex-direction: column;
+          
+      }
+      .image{
+          top:60px;
+          left:240px;
+          
+      }
+      .navbar {
+        display: none;
+      }
+      .logo {
+        margin-top: 10px;
+      }
+      .first-nav-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .hamburger-menu div{
+        height: 3px;
+        background-color: #1B1C1E;
+        margin: 3px ;
+        border-radius: 20px;
+      }
+      .line {
+      height: 5px;
+      width: 25px;
+      }
+      .btext p{
+          margin-top: 35px;
+      }
+      .second-photo, .third-photo {
+        display: none;
+      }
+      
+      .box {
+        display: flex;
+       justify-content: center;
+      }
+      .dot {
+        height: 10px;
+        width: 10px;
+        background-color: #bbb;
+        border-radius: 50%;
+    
+      }
+      .dots {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 30px;
+        
+      }
+    
+      .dots .dot {
+        margin: 8px;
+      }
+      .dots .dot:nth-of-type(2){
+        background-color: #1B1C1E;
+      }
+  }
+
+  @media only screen and (min-width:768px){
+      .first-nav-container{
+          display: none;
+      }
   }

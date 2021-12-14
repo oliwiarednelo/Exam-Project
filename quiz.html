@@ -36,7 +36,15 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-
+        <div class="first-nav-container">
+            <div class="hamburger-menu">
+                <a href="menu.html">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </a>
+            </div>
+            </div>
     </header>
     <main>
         <div class="back">
@@ -44,13 +52,13 @@
      </div>
      <h2>Tea quiz</h2>
      <form name="quiz" id="quiz">
-         <div>
+         <div id="one">
          <p>How experienced are you with drinking tea?</p>
          <p><input type="radio" name="question1" value="novice">novice</p>
          <p><input type="radio" name="question1" value="enthusiast">enthusiast</p>
          <p><input type="radio" name="question1" value="expert">expert</p>
          </div>
-         <div>
+         <div id="two">
          <p>What kind of tea is your favourite?</p>
          <p><input type="radio" name="question2" value="green">green</p>
          <p><input type="radio" name="question2" value="black">black</p>
@@ -59,7 +67,7 @@
          <p><input type="radio" name="question2" value="white">white</p>
          <p><input type="radio" name="question2" value="rooibos">rooibos</p>
          </div>
-         <div>
+         <div id="three">
          <p>Which tea flavours do you like?</p>
          <p><input type="radio" name="question3" value="fruity">fruity</p>
          <p><input type="radio" name="question3" value="minty">minty</p>
@@ -69,7 +77,7 @@
          <p><input type="radio" name="question3" value="nutty">nutty</p>
          <p><input type="radio" name="question3" value="floral">floral</p>
          </div>
-         <div>
+         <div id="four">
          <p>Which tea flavours do you hate?</p>
          <p><input type="radio" name="question4" value="fruity">fruity</p>
          <p><input type="radio" name="question4" value="minty">minty</p>
@@ -79,7 +87,7 @@
          <p><input type="radio" name="question4" value="nutty">nutty</p>
          <p><input type="radio" name="question4" value="floral">floral</p>
          </div>
-         <div>
+         <div id="five">
          <p>At what part of the day you like to drink tea?</p>
          <p><input type="radio" name="question5" value="morning">in the morning right after waking up
          </p>
@@ -89,7 +97,7 @@
          <p><input type="radio" name="question5" value="day">I drink tea throughout the whole day</p>
          <p><input type="radio" name="question5" value="never">I don't drink tea</p>
          </div>
-         <div>
+         <div id="six">
          <p>Why do you drink tea?</p>
          <p><input type="radio" name="question6" value="relax">relaxation</p>
          <p><input type="radio" name="question6" value="focus">helps me focus while studying or working</p>
@@ -97,13 +105,38 @@
          <p><input type="radio" name="question6" value="taste">taste</p>
          <p><input type="radio" name="question6" value="sleep">helps me with my sleep problems</p>
          </div>
-         <div>
+         <div id="seven">
          <p>Are you currently sick?</p>
          <p><input type="radio" name="question7" value="yes">yes</p>
          <p><input type="radio" name="question7" value="no">no</p>
-
          </div>
+         <div id="eight">
+            <p>Please enter your email to get results:</p>
+            <input type="email" id="email"  placeholder="sophie@gmail.com" required">
+            </div>
+            <section class="buttons">
+                <div class="submit">
+            <button><a href="#">SUBMIT</a></button>
+        </div>
+        <div class="share">
+            <button><a href="#">SHARE</a></button>
+        </div>
+            </section>
         </form>
+
     </main>
+
+    <footer>
+        <div class="links">
+            <a href="#">Our teas</a>
+            <a href="#">Tea 101</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="some">
+            <img src="images/fb.svg" alt="facebook">
+            <img src="images/ig.svg" alt="instagram">
+        </div>
+    </footer>
 </body>
 </html>
