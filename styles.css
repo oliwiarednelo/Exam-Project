@@ -150,7 +150,6 @@ width: 100%;
 
 .flex {
   display: block;
-
   margin-right: auto;
   margin-left: auto;
   width: 50%;
@@ -220,7 +219,14 @@ font-weight:600;
   font-weight: 600;
 }
 
-
+.container {
+  display: flex;
+ align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
 
 .first-photo {
   width: 340px;
@@ -385,14 +391,7 @@ width: 100%;
  text-align: center;
 }
 
-.container {
-  display: flex;
- align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-  margin-top: 50px;
-}
+
 
 .quiz {
   display: flex;
