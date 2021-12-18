@@ -566,18 +566,18 @@ footer .some img{
   .text p{
     font-size: 20px;
   }
-.text button {
+.text a {
   background-color: #534741;
   margin-top: 30px;
 }
-.text button a{
+.text  a{
   color: #FAFAFA;
 }
-.text button:hover{
+.text a:hover{
   background-color: transparent;
   border: 2px solid #534741;
 }
-.text button a:hover{
+.text a:hover{
   color: #534741;
 }
 .quiz {
