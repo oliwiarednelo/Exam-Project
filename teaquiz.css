@@ -118,7 +118,7 @@ form h5{
     height: 30px;
 }
 
-button{
+.submit a{
  
     padding-left: 25px;
     padding-right: 25px;
@@ -133,21 +133,21 @@ button{
   
   
   
-  button:hover{
+ .submit a:hover{
     border: 2px solid #534741;
     background-color: transparent;
   
     font-weight: bolder;
   
   }
-   button a {
+   .submit a {
     text-decoration: none;
     color:#FAFAFA;
 
 font-weight:500;
   }
   
-button a:hover {
+.submit a:hover {
    color:#534741;
   
   
@@ -161,25 +161,32 @@ button a:hover {
   .buttons button {
       margin-right: 20px;
   }
+.share {
+    margin-top: 40px;
+    margin-left: 20px;
+}
 
-.share button{
+.submit {
+    margin-top: 40px;
+}
+.share a{
     padding-left: 25px;
     padding-right: 25px;
     padding-top:8px;
     padding-bottom: 8px;
     background-color:transparent;
     border-radius: 5px;
-
+text-decoration: none;
     border: 2px solid #534741;
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
-  .share button a {
+  .share  a {
       color: #534741;
       font-weight: 500;
   }
 
-  .share button:hover{
+  .share a:hover{
     padding-left: 25px;
     padding-right: 25px;
     padding-top:8px;
